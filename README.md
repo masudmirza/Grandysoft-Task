@@ -1,10 +1,12 @@
 # **Test task for Grandysoft**
 ## **Table of contents**
 ---
-- [Description](#Description)
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Technologies](#Technologies)
+- [**Test task for Grandysoft**](#test-task-for-grandysoft)
+  - [**Table of contents**](#table-of-contents)
+  - [**Description**](#description)
+  - [**Installation**](#installation)
+  - [**Usage**](#usage)
+  - [**Endpoints**](#endpoints)
 ---
 ## **Description**
 It is necessary to create a REST application that will contain randomly generated users and connections between them. If requested, it will be necessary to provide the necessary information.
