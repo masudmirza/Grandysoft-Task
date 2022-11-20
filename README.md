@@ -1,4 +1,4 @@
-# **Node.js E-commerce REST API with Swagger Documentation**
+# **Test task for Grandysoft**
 ## **Table of contents**
 ---
 - [Description](#Description)
