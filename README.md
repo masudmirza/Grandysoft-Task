@@ -25,8 +25,8 @@ npm run start
 ```
 ---
 ## **Usage**
-
 When you run the project, tables will be automatically created in the database and users will be inserted there. To change the number of the user, you can enter the desired number parameter from the userGenerator function.
+
 ---
 ## **Endpoints**
 1. api/users/subscribe - request method - POST, accepts senderId and receiverId from body
