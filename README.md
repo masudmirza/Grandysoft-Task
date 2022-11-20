@@ -14,7 +14,7 @@ It is necessary to create a REST application that will contain randomly generate
 1. Start by forking this repository on Github.
 2. Clone this project to your machine by using the "git clone + URL" command.
 3. Move to project directory.
-4. Run the folowing to install dependencies.
+4. Run the following to install dependencies.
 ```javascript
 npm install
 ``` 
