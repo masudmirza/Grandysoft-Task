@@ -2,13 +2,13 @@
   "http.proxySupport": "off",
   "name": "grandysoft-task",
   "version": "1.0.0",
-  "description": "",
+  "description": "Grandysoft",
   "main": "app.js",
   "scripts": {
-    "start": "node dist/app.js",
+    "dist": "node dist/app.js",
     "build": "tsc",
     "dev": "tsc && node dist/app.js",
-    "start:dev": "ts-node src/app.ts"
+    "start": "ts-node src/app.ts"
   },
   "repository": {
     "type": "git",
