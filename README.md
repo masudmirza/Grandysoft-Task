@@ -18,14 +18,19 @@ It is necessary to create a REST application that will contain randomly generate
 ```javascript
 npm install
 ``` 
-5. Set up database.
-6. Run the following code to start.
+5. Set up database and enter your credentials in the ./src/config/config.json
+6. Move to ./src directory and run the command:
 ```javascript
-npm run start
+npx sequelize-cli db:migrate
+```
+7. Back to the project directory.
+8. Run the following code to start.
+```javascript
+npm run start:dev
 ```
 ---
 ## **Usage**
-When you run the project, tables will be automatically created in the database and users will be inserted there. To change the number of the user, you can enter the desired number parameter from the userGenerator function.
+When you run the project, tables will be automatically created in the database and users will be inserted there. To change the number of the user, you can enter the desired number parameter from the userGenerator function. Finally, you can test APIs.
 
 ---
 ## **Endpoints**

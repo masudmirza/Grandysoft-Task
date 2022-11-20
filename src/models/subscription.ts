@@ -36,12 +36,10 @@ module.exports = (sequelize: any, DataTypes: any) => {
     senderId: {
       type: DataTypes.UUID,
       defaultValue: UUIDV4,
-      allowNull: false,
     },
     receiverId: {
       type: DataTypes.UUID,
       defaultValue: UUIDV4,
-      allowNull: false,
     }
   }, {
     sequelize,

@@ -1,12 +1,10 @@
-require('dotenv').config;
-
-module.exports = {
+{
   "development": {
-    "username": 'task_local',
-    "password": 'task-local',
-    "database": 'task-local',
+    "username": "task-local",    
+    "password": "task-local",
+    "database": "task-local",
     "host": "localhost",
-    "dialect": "postgres",
+    "dialect": "postgres"
   },
   "test": {
     "username": "root",

@@ -5,10 +5,10 @@
   "description": "Grandysoft",
   "main": "app.js",
   "scripts": {
-    "dist": "node dist/app.js",
+    "start": "node dist/app.js",
     "build": "tsc",
     "dev": "tsc && node dist/app.js",
-    "start": "ts-node src/app.ts"
+    "start:dev": "ts-node src/app.ts"
   },
   "repository": {
     "type": "git",
