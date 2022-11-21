@@ -10,4 +10,3 @@ export const userGenerator = async (count: number) => {
         await newUsers.save();
     });
 }
-

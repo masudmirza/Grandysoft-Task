@@ -32,7 +32,7 @@ npm run start:dev
 ```
 ---
 ## **Usage**
-When you run the project, tables will be automatically created in the database and users will be inserted there. To change the number of the user, you can enter the desired number parameter from the userGenerator function. Finally, you can test APIs.
+When you run the project, tables will be automatically created in the database and users will be inserted there. To change the number of the user, you can enter the desired number parameter from the userGenerator function. Finally, you can test APIs. There are 2 tables in database. Users table has id, firstname, gender, createdAt, updatedAt fields and Subscriptions table has id, senderId, receiverId, createdAt, updatedAt fields.There is OneToMany relation between Users.id and Subscriptions.senderId and Subscriptions.receiverId.
 
 ---
 ## **Endpoints**
