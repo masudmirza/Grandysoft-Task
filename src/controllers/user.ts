@@ -56,7 +56,7 @@ export default class UserController {
         let myFriends = [];
 
         for (let subs of receiverSubs) {
-            var receiverFriends = await db.Subscription.findOne({ where: { senderId: subs.receiverId, receiverId: subs.senderId } });
+            const receiverFriends = await db.Subscription.findOne({ where: { senderId: subs.receiverId, receiverId: subs.senderId } });
             myFriends.push(receiverFriends);
         }
 
